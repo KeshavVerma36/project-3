@@ -1,0 +1,167 @@
+.container1 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.container2 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.hero-text {
+    transition: transform 0.3s ease;
+}
+
+.hero-text:hover {
+    transform: scale(1.1);
+}
+
+.inter-font {
+    color: rgb(244,229,213);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    margin: 0px;
+    text-align: center;
+  }
+
+p {
+    margin-bottom: 0px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    
+}
+
+.info {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(57,45,45);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.info:hover {
+    transform: scale(1.1);
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350;
+}
+
+.card {
+    width:900px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(225,210,212);
+    border: none;
+}
+
+.card-text {
+    color: rgb(85,45,60);
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    margin-top: 10px;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.info-text-1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.info-text-2 {
+    font-size: 50px; 
+    font-weight: 900;
+}
+
+.info-text-3 {
+    font-size: 50px; 
+    font-weight: 900;
+}
+
+.info-text-4 {
+    font-size: 15px; 
+    margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .container1{
+        height: 450px;
+    }
+
+    .info-container{
+        height: 600px;
+    }
+
+    .img{
+        margin-bottom: 50px;
+    }
+
+    .card {
+        height: 275px;
+    }
+
+    .card-text {
+        font-size: 17px;
+    }
+
+    .info-text-1 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    
+    .info-text-2 {
+        font-size: 40px; 
+        font-weight: 900;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .info-text-3 {
+        font-size: 40px; 
+        font-weight: 900;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .info-text-4 {
+        font-size: 13px; 
+        margin: 50px;
+    }
+
+}
